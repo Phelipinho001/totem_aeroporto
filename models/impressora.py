@@ -1,7 +1,7 @@
 from datetime import datetime
 
 class Impressora:
-    def impressora(self, passageiro, classe, servico, senha):
+    def impressora_cartao(self, passageiro, classe, servico, senha):
         data_atual = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
         print("\n" + "-" * 42)
         print("CARTÃO DE FILA - VOAR MUITO")
