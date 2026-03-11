@@ -1,6 +1,6 @@
 class Urgencia:
     
-    def urgencia(self, passageiro):
+    def alerta(self, passageiro):
         """
         Recebe os dados do passageiro e exibe um alerta crítico na tela,
         orientando-o a ir direto para o embarque expresso sem pegar fila.
