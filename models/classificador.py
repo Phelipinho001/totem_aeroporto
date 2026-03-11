@@ -1,12 +1,14 @@
-from passageiro import Passageiro
+
+from models.passageiro import Passageiro
+
 
 class Classificador:
 
     @staticmethod
     
-    def classificador(passageiro : Passageiro):
+    def classificar(passageiro : Passageiro):
 
-        if passageiro.client_vip == True or passageiro.idade:
+        if passageiro.client_vip == True or passageiro.idade >= 60:
             return "1ª Classe"
         
         else:
