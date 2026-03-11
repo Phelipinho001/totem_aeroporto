@@ -1,6 +1,6 @@
 class Passageiro:
 
-    def passageiro(self, nome, idade, client_vip):
+    def __init__(self, nome, idade, client_vip):
         
         self.nome = nome
         self.idade = idade
